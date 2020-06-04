@@ -179,3 +179,69 @@ Austrailia
 China
 ![altext](https://github.com/sarnesh444/Internship-Kagool/blob/master/country_vs_sales_groupby_snscatplot/china.JPG)
 
+
+## Day 19: May22nd 2020
+#### Visualizations in tableau 
+* I had some issues connecting to the off-shore VM in-order to access Power-BI
+* So I tried creating a dashboard with some interactive visuals in Tableau Public Desktop.
+![altext](https://github.com/sarnesh444/Internship-Kagool/blob/master/country_vs_sales_groupby_snscatplot/top5countriesbysales.png)
+
+Outcome [here](https://public.tableau.com/profile/saranesh.maniratna#!/vizhome/Dashboardtop5countriesbysaleskagool/Dashboard1?publish=yes)
+
+
+## Day 20: May 23rd 2020
+#### Stepping into PowerBI
+* Before I could jump into creating dashboard pages for the original dataset I wanted to playaround with some fake data to adapt to the Power-BI ecosystem.
+* The dashboard is pretty naive but was done just to understand how PBI works.
+Check it out [here](https://github.com/sarnesh444/Internship-Kagool/blob/master/dylanPBIvisualsSales/samplefortestingpowerbi/sales-test.pbix)
+
+
+## Day 21: May 25th 2020
+#### Python+PBI=❤️
+* The goal is to incorporate as many python-non-pbi visuals as possible
+* Power-BI offers many intutive visuals but we wanted to incorporate visuals not supported by it.
+* I wanted to get an overview of how python can be incorported in Power-BI find the tutorial [here](https://www.youtube.com/watch?v=ahf6wPXHTvM)
+
+
+## Day 22: May 26th 2020
+#### Now making things work in Power-BI
+* First the dataset has to be loaded and processed in Big-Query.
+* Secondly pbi supports python visuals:drag the python icon into the page to start writing code in powerbi
+* Drag the fields necessary into the Data part
+* Now the code can be edited in a default python editor 
+* Ctrl C+Ctrl V the code into PBI 
+* And voila this how we can connect the best language for ML and the best tool for BI
+* 1st Connect......
+![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/dylanPBIvisualsSales/powerbi/1stconnect.JPG)
+
+
+## Day 23: May 27th 2020
+#### Continuing to get the visuals not available in PBI via python
+![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/dylanPBIvisualsSales/powerbi/page1mine_main.JPG)
+
+
+## Day 24: May 28th 2020
+#### Streak of new visuals continues
+![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/dylanPBIvisualsSales/powerbi/page2mine_main.JPG)
+
+
+## Day 25: May 29th 2020
+#### Streak continues......BUT interactivness from plotly
+
+* Along with getting new visuals we also wanted to add interactive visuals from python into power-bi.
+* So I have explored Plotly a library known for interactivness 
+* Some more visuals
+![alt](https://github.com/sarnesh444/Internship-Kagool/blob/master/dylanPBIvisualsSales/powerbi/page3mine_main.JPG)
+* Plotly visual renders HTML File as output so as to serve interactiveness.
+![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/dylanPBIvisualsSales/powerbi/parallel_categories_plotly.JPG)
+
+
+## Day 26: May 30 2020
+#### Goal was to create a dashboard,gather all at one place and also have defined boundaries and descriptions for each visual
+* Creating new Visuals
+![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/dylanPBIvisualsSales/powerbi/page4mine_main.JPG)
+* Exploring the documentation [at](https://github.com/sarnesh444/Internship-Kagool/blob/master/dylanPBIvisualsSales/powerbi/visualVocab%20-%20withoutMapboxToken%20(1).pbix) 
+
+
+
+# PHASE:2
