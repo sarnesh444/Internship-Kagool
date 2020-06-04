@@ -25,7 +25,7 @@ My sincere thanks to Mr.Kalyan Gupta,Mr.Uma(HR),Mr.Babu(Sys-Admin),Mr.Dylan(Anal
 * We also had to set-up [Teams](https://www.microsoft.com/en-in/microsoft-365/microsoft-teams/group-chat-software) and [Outlook](https://outlook.live.com/owa/)
 
 ##### I have been using slack and teams for a while now and hands-down Teams is easy-to-use and has everything at one place there is no need to worry about Team-Viewer(for requesting-control) and Zoom for calls.
-[slack](https://github.com/sarnesh444/Internship-Kagool/blob/master/teamsvsslack.png)
+![alt text](https://github.com/sarnesh444/Internship-Kagool/blob/master/teamsvsslack.png)
 
 
 ## Day 5-7 May 6th-8th 2020
