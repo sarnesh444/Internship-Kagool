@@ -1,0 +1,21 @@
+cls-clears the screen
+
+"Get-Help Stop-Process"-gives us info about "Stop-Process" command
+
+"get-help stop-process -online" gives the online documentation for the command stop-process
+
+"get-date|get-member" passes "get-date" to "get-member" which gives information about type of object 
+
+"get-date|format-list" passes "get-date" to "Format-List" which displays the contents in the form of a list
+
+
+"history" gives the history of commands typed
+
+"get random" returns a random number
+
+"find-module" helps find the module for a task
+
+
+"get-command *"-gives all the command
+
+"get-command *keyword you are looking for*"-gives all the commands linkedin to the keyword

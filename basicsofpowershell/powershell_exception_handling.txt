@@ -1,0 +1,9 @@
+try{$i/0} 
+catch{write-warning "invalid"}
+
+o/p:
+WARNING: invalid
+
+"$Error[0].Exception.GetType().FullName" gives the type of exception
+
+

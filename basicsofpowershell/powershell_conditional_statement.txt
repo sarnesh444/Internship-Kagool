@@ -1,0 +1,93 @@
+
+1.SIMPLE IF
+
+$i=10
+if($i -eq 0){write-output "var is zero"}
+
+
+
+2.IF-ELSE
+
+$i=10
+if($i -eq 0)
+{write-output "var is zero"}
+else
+{
+    Write-Output "var -gt zero"
+}
+
+
+
+3.IF-ELSEIF-ELSE
+
+$i=10
+if($i -eq 0)
+{write-output "var is zero"}
+elseif($i -eq 10)
+{
+    Write-Warning "var -eq 10"
+}
+
+else
+{
+    Write-Output "var -gt zero"
+}
+
+
+4.NESTED IF
+$i=0
+if($i -lt 10)
+{
+if($i -eq 0)
+{
+write-output "var is zero"
+}
+}
+
+5.SWITCH
+
+$i=0
+switch($i)
+{
+    1 {"one"}
+    2 {"two"}
+    0 {"zero"}
+    0 {"zero 2"}
+}
+
+
+$i=0
+switch($i)
+{
+    1 {"one"}
+    2 {"two"}
+    0 {"zero";break}
+    0 {"zero 2"}
+}
+
+o/p:zero
+
+
+
+
+
+=================================================
+
+USER DEFINED FUNCTIONS:
+
+
+function whatisthetime()
+{
+    get-date
+}
+
+o/p:
+
+function whatisthetime()
+{
+    get-date
+}
+
+whatisthetime
+
+Tuesday, May 12, 2020 12:48:04 PM

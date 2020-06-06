@@ -1,0 +1,161 @@
+to declare an array:
+	$var_name=members
+	eg.  $arr=1,2,3,4,5
+
+to print an array:
+	write-output $var_name
+	write-output $arr
+	o/p 
+	1
+	2
+	3
+	4
+	5
+
+
+1.foreach-object :
+	eg.foreach-object {write-output $arr}
+	
+	for each object in the array it iterates and prints contents
+
+	eg.foreach-object {write-output $arr} | get-member
+	
+	output:
+		 TypeName: System.Int32
+
+
+stackoverflow
+
+They're different commands for different purposes. The ForEach-Object cmdlet is used in the pipeline, and you use either $PSItem or $_ to refer to the current object in order to run a {scriptblock} like so:
+
+1..5 | ForEach-Object {$_}
+
+>1
+>2
+>3
+>4
+>5
+Now, you can also use a very similiar looking keyword, ForEach, at the beginning of a line. In this case, you can run a {scriptblock} in which you define the variable name, like this:
+
+2.ForEach ($number in 1..5){$number}
+>1
+>2
+>3
+>4
+>5
+The core difference here is where you use the command, one is used in the midst of a pipeline, while the other starts its own pipeline. In production style scripts, I'd recommend using the ForEach keyword instead of the cmdlet.
+
+
+FOR EACH THROWS AN ERROR WHEN OUTPUT IS PASSED TO A PIPELINE 
+
+"ForEach ($number in 1..5){$number} | get-member"
+
+
+At line:1 char:36
++ ForEach ($number in 1..5){$number} | get-member
++                                    ~
+An empty pipe element is not allowed.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : EmptyPipeElement
+
+
+FOREACH-OBJECT DOES NOT THROW AN ERROR WHEN OUPUT IS PASSED TO A PIPELINE
+
+" 1..5 | ForEach-Object {$_} |get-member"
+
+ TypeName: System.Int32
+
+
+
+FOREACH EXAMPLES
+
+eg.1
+foreach ($i in $arr)
+{
+	write-host $i
+}
+
+
+eg.2
+foreach($i in 1..10){write-output $i}
+o/p
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+
+
+
+
+3.for($i=1;$i-lt 5;$i++){write-output $i}
+1
+2
+3
+4
+
+for loop iterates over value i until i -lt is less than 5
+
+
+4.While loop
+
+ while($i -lt 5){write-output $i;$i++}
+1
+2
+3
+4
+
+
+$i=1
+while($i -lt 5){write-output "loop"$i;$i++}
+
+o/p:
+loop
+1
+loop
+2
+loop
+3
+loop
+4
+
+
+
+5.DO WHILE LOOP
+
+
+$i=1
+"do 
+{write-output $i ; $i++}
+while($i -lt 5)"
+
+p/p:
+1
+2
+3
+4
+
+6.DO UNTIL 
+
+do while loops until the given condition holds true
+do until loops until the given condition becomes false
+
+$i=1
+"do 
+{write-output $i ; $i++} 
+until($i -gt 5)"
+
+loop iterates until i is -gt greater than 5
+
+o/p:
+1
+2
+3
+4
+5
