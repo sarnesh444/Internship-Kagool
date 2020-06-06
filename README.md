@@ -1,12 +1,12 @@
 # Internship-Kagool
 
 ### Application to Acceptance 2nd March 2020 to 13th March 2020
-I have applied to this firm via a reference,after the initial amlysis,had a telephonic interview with Mr.Kalyan Gupta:thanks for keeping the process smooth,later I have been invited to join the firm as an Analytics Intern at their Hyderabad office for a 3 month period.
+I have applied to this firm via a reference,after the initial proceedings,I had a telephonic interview with Mr.Kalyan Gupta:thanks for keeping the process very smooth,later I have been invited to join the firm as an Analytics Intern at their Hyderabad office for a 3 month period.
 [Offer](https://github.com/sarnesh444/Internship-Kagool/blob/master/Saranesh%20Kanumuri%20-%20Kagoo%20Intern%20.pdf)
 
-But unfortunately I could not join them due to the COVID-19 Pandemic,I have been lucky enough they have accepted me as a virtual-intern.
+But unfortunately I could not join them due to the COVID-19 Pandemic,I have been lucky enough to be accepted as a virtual-intern.
 
-My sincere thanks to Mr.Kalyan Gupta,Mr.Uma(HR),Mr.Babu(Sys-Admin),Mr.Dylan(Analytics POC),Mr.Chaithanya(Automation POC),Mr.Hammad(POC)
+My sincere thanks to [Mr.Kalyan Gupta Delivery Head](https://in.linkedin.com/in/kalyan-brahmandlapally-5ab62425),Mr.Uma(HR),Mr.Babu(Sys-Admin),[Mr.Dylan Analytics POC](https://uk.linkedin.com/in/dylanmead),[Mr.Chaithanya Automation Lead](https://in.linkedin.com/in/chaithanya-palthi-42002163),[Mr.Hammad Automation POC](https://uk.linkedin.com/in/hammadkamran)
 [Kagool](https://www.linkedin.com/mwlite/company/kagool-ltd)
 
 ## Day 1 May 1st 2020
@@ -22,9 +22,9 @@ My sincere thanks to Mr.Kalyan Gupta,Mr.Uma(HR),Mr.Babu(Sys-Admin),Mr.Dylan(Anal
 * I have been asked to join for a call with the HR and Sys-Admin for the on-boarding process.
 * We had to setup [Fortinet](https://www.fortinet.com/) and mstc(Temote-Desktop connection) to connect to the off-shore VM
 * Being an analytics intern I had to work with a BI tool being an esteemed organization Kagool is a Microsoft Gold Partner so I was fortunate enough to get a Power-BI premium access.[Power-BI](https://powerbi.microsoft.com/en-us/) 
-* We also had to set-up [Teams](https://www.microsoft.com/en-in/microsoft-365/microsoft-teams/group-chat-software) and [Outlook](https://outlook.live.com/owa/)
+* We also had to set-up [Teams](https://www.microsoft.com/en-in/microsoft-365/microsoft-teams/group-chat-software) and [Outlook](https://outlook.live.com/owa/) for communication.
 
-##### I have been using slack and teams for a while now and hands-down Teams is easy-to-use and has everything at one place there is no need to worry about Team-Viewer(for requesting-control) and Zoom for calls.
+##### I have been using slack and teams for a while now and I think hands-down Teams wins,since it is easy-to-use and has everything at one place there is no need to worry about Team-Viewer(for requesting-control) and Zoom(for calls).
 ![alt text](https://github.com/sarnesh444/Internship-Kagool/blob/master/teamsvsslack.png)
 
 
@@ -43,12 +43,12 @@ Here are my [learnings.](https://github.com/sarnesh444/Internship-Kagool/tree/ma
 
 ## Day 8 May 9th 2020
 #### Task was to explore the COVID-19 Dashboard built at Kagool Analytics using Power-BI
-I was amazed to see how intutive the visualizations were,I have always believed "A picture Speaks a Thousand Words" you might have the best team creating models but what makes it intutive and understandable to everyone is Business-Intelligence has the responsibility of presenting the insights gained from [data](https://www.linkedin.com/posts/kagool-ltd_powerbi-azurecloud-activity-6656096473693904896-rjsW)
+I was amazed to see how intuitive the visualizations were,I have always believed "A picture Speaks a Thousand Words" you might have the best team creating models but what makes it intuitive and understandable to everyone is Business-Intelligence has the responsibility of presenting the insights gained from [data](https://www.linkedin.com/posts/kagool-ltd_powerbi-azurecloud-activity-6656096473693904896-rjsW)
 
 
 ## Day 9 May 11th 2020
 #### I had a special catchup with my analytics team at UK.
-This meeting had the spotlight on me to identify my skills,learnings and see where I best fit the bill.
+This meeting had the spotlight on me to identify my skills,learnings and check where I can best fit the bill.
 
 
 ## Day 10 May 12th 2020
@@ -79,17 +79,17 @@ Dylan Mead
 Data Engineer
 
 
-This was when I started working on the [Global SuperStore Dataset]() 
+This is when I started working on the [Global SuperStore Dataset]() 
 
 * The initial target was to explore best-practises for clustering and pre-processing and also create a documentation for the life-cycle of problem at hand and...
 I managed to achieved [this](https://github.com/sarnesh444/InternshipKagool/tree/master/references_for_clustetring)
 
 
 ## Day 11: May13th 2020
-#### I had a All-Hands-Meet with the entire Kagool family and Phase-1 Data Cleaning
+#### I had a All-Hands-Meet with the entire Kagool family and Phase-1 of Data Cleaning...
 
 I initially thought an All-Hands-Meet will not be quite new to my arena,being an operations member with demonstrated history of actively taking part in meets and events BUT THIS WAS A DIFFERENT BALL GAME(the product-walkthroughs RnR for achievers all felt so nice.) everything is perfectly documented and the process is remarkable,the best practises from requirement analysis to product delivery was clearly visible.
-We also had a session of soap-box "An interesting topic(overview of various SDLCs) with a narrative mastery" LITERALLY WOW!
+We also had a session of soap-box "An interesting topic(SDLC and it's impact on product delivery) with a narrative mastery" LITERALLY WOW!
 
 I had started working on pre-processing the dataset,this the most time consuming part of a data-product lifecycle.
 * I got a skeleton understanding of the data. 
@@ -107,13 +107,13 @@ Viz's help explore and understand the data even better after rigrous pre-process
 
 ![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/clusteringmodelinitialpythonnoPBI/nullval_after_encoding.JPG)
 
-I wanted to see how each feature is in relation to sales so created some basic visuals.
+I wanted to see how each feature is in relation to sales(target) so created some basic visuals.
 ![altext](https://github.com/sarnesh444/Internship-Kagool/blob/master/country_vs_sales_groupby_snscatplot/statevssales.png)
 
 ## Day13 : May15th 2020
 #### The most interesting part.....Building the Machine Learning Model
 
-Since the dataset falls under unsupervised category(at a very high level:output label not known) so based on the various features I wanted to cluster the data points into various clusters,I have a read a couple of notes on clustering methodologies like DBSCAN but I have fixed for Hierarchical clustering though an old-school technique yet gives promising results always.
+Since the dataset falls under unsupervised category(at a very high level:output label us not known) so based on the various features I wanted to cluster the data points into various groups,I have a read a couple of notes on clustering methodologies like DBSCAN but I have settled for Hierarchical clustering though an old-school technique yet gives promising results always.
 
 I have used the elbow method to get the optimum number of clusters
 ![alttext](https://github.com/sarnesh444/InternshipKagool/blob/master/clusteringmodelinitialpythonnoPBI/determining_optimum_no_of_clusters_using_elbow_method.JPG)
@@ -121,7 +121,7 @@ Here is the model and [outcome](https://github.com/sarnesh444/InternshipKagool/b
 
 
 ## Day14: May16th 2020
-#### Seaborn the savior
+#### Seaborn the saviuor
 
 After generating the model we wanted to create eye-catchy visuals so that they can be embedded in power-bi to create a dashboard,let me quote an example "based on the client requriement data has been wrangled,processed,explored,insights have been gained but they have to be presentable and should be understood by everyone"here is when BI-tools come into play.
 Day-1 of visuals
@@ -132,7 +132,7 @@ Outcome [here](https://github.com/sarnesh444/Internship-Kagool/blob/master/count
 ## Day 15: May18th 2020
 #### Making the wrong right....
 
-The previous visual was quite simple was'nt it,yes that is not what is expected
+The previous visual was quite simple was'nt it,yes that is not what is expected.
 * I had a catchup with my POC Dylan to talk about the work so far and expectations ahead.
 * I understood the visuals were to be grouped by country and each purchase has to be preserved and should not be summarized.
 * So had to group each entry based on country,after high processing I have reduced the dataset to have only entries of top5 countries by   sales,we wanted to get each sale as a point on the visual from the top5 countries.
@@ -191,15 +191,15 @@ Outcome [here](https://public.tableau.com/profile/saranesh.maniratna#!/vizhome/D
 
 ## Day 20: May 23rd 2020
 #### Stepping into PowerBI
-* Before I could jump into creating dashboard pages for the original dataset I wanted to playaround with some fake data to adapt to the Power-BI ecosystem.
+* Before I could jump into creating dashboard pages for the original dataset I wanted to playaround with some populated data to adapt to the Power-BI ecosystem.
 * The dashboard is pretty naive but was done just to understand how PBI works.
 Check it out [here](https://github.com/sarnesh444/Internship-Kagool/blob/master/dylanPBIvisualsSales/samplefortestingpowerbi/sales-test.pbix)
 
 
 ## Day 21: May 25th 2020
 #### Python+PBI=❤️
-* The goal is to incorporate as many python-non-pbi visuals as possible
-* Power-BI offers many intutive visuals but we wanted to incorporate visuals not supported by it.
+* The goal is to incorporate as many python-non-pbi visuals as possible.
+* Power-BI offers a rich set of visuals but we wanted to incorporate visuals not supported by it.
 * I wanted to get an overview of how python can be incorported in Power-BI find the tutorial [here](https://www.youtube.com/watch?v=ahf6wPXHTvM)
 
 
@@ -226,7 +226,7 @@ Check it out [here](https://github.com/sarnesh444/Internship-Kagool/blob/master/
 
 
 ## Day 25: May 29th 2020
-#### Streak continues......BUT interactivness from plotly
+#### Streak continues......and trying to achieve interactivness via plotly.
 
 * Along with getting new visuals we also wanted to add interactive visuals from python into power-bi.
 * So I have explored Plotly a library known for interactivness 
@@ -256,22 +256,22 @@ Check it out [here](https://github.com/sarnesh444/Internship-Kagool/blob/master/
     * conditionals
     * exception handling 
     * functions
-## The biggest question was when we have "Python" that can do "ALMOST ANYTHING" why do we need powershell
-## I am wrong : MY LEARNING: "Different diseases have to be treated with differnet medicines" this can be an amateur analogy but that is how it works,each project has a different set of requirements and tool that can best solve the problem at hand has to be picked since my team was working on deploying resources to the Azure cloud,the Powershell(Azure Cloud) being Microsoft's brain child it had a lot of in-built functions and cmdlets that can help make the process easier.
+## The biggest question was when we have "Python" that can do "ALMOST ANYTHING" why do we need "POWERSHELL"
+## I am wrong : MY LEARNING: "Each disease is to be dealt uniquely" this can be an amateur analogy but that is how it works,each project has a it's own recipe and requirements the tool that can best solve the problem at hand has to be picked since my team was working on deploying resources to the Azure cloud,the Powershell(Azure Cloud) being Microsoft's brain child it had a lot of in-built functions and cmdlets that can help make the process easier,so here Powershell is a better choice when compared to Python.
 
 Please find the learnings [here](https://github.com/sarnesh444/Internship-Kagool/tree/master/basicsofpowershell)
 
 
 ## Day 28: June 2nd 2020
 #### Explore logs.....
-* After checking out some basics I have been asked to gain insights from the code base of the team,the functionality of the code was to   write user logs to a flat-file and deploy them to the cloud and also print warnings to the console in case of failure.Sounds simple     is'nt,not actually the syntax of powershell is a little difficult to catch it encompassed lot of in-built functions,so had to look up   the documentation"I WROTE NO CODE BUT I WAS TRYING TO UNDERSTAND WHAT HAS BEEN ALREADY WRITTEN"
+* After checking out some basics I have been asked to gain insights from the code base of the team,the functionality of the code was to   write user logs to a flat-file and deploy them to the cloud and also print warnings to the console in case of failure.Sounds simple     is'nt,actually not,the syntax of powershell is a little difficult to catch it encompassed lot of in-built functions,so had to look up   the documentation"I WROTE NO CODE BUT I WAS TRYING TO UNDERSTAND WHAT HAS BEEN ALREADY WRITTEN" that was a task in-itself
 * Simple task : Write a code to read from csv and print to the console.
   Please check it [here](https://github.com/sarnesh444/Internship-Kagool/tree/master/readfromcsv)
  
 
 ## Day 29: June 3rd 2020
 #### Explore ARM......
-* Azure Resouce Manager,if were to explain it is similar to a yaml file and has a structure like json which is used to specify resources (eg.Azure storage,with all the specifications and attributes like apiversion etc.)and deploy them within resource groups within subscriptions,I found a [github page](https://github.com/Azure/azure-quickstart-templates) from azure,it is a repository of pre-defined templates that can be tailored to our requirements and using a ps1 script the specified ARM TEMPLATE can be deployed.
+* Azure Resouce Manager,if were to explain it is similar to a YAML file and has a structure like JSON which is used to specify resources (eg.Azure storage,with all the specifications and attributes like apiversion etc.)and deploy them to resource groups resided within subscriptions,I found a [github page](https://github.com/Azure/azure-quickstart-templates) from azure,it is a repository of pre-defined templates that can be tailored to our requirements and using a ps1 script the specified ARM TEMPLATE can be deployed.
 
 
 ## Day 30: June 4th 2020
