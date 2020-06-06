@@ -245,3 +245,41 @@ Check it out [here](https://github.com/sarnesh444/Internship-Kagool/blob/master/
 
 
 # PHASE:2
+## Inception of Powershell
+### My firm was automating deployments and the team was looking for a resource,I wanted to help since it would be a win-win situation. 
+
+
+## Day 27: June 1st 2020
+#### Exploring basics of powershell...
+* I have been asked to explore the fundamentals like 
+    * loops 
+    * conditionals
+    * exception handling 
+    * functions
+## The biggest question was when we have "Python" that can do "ALMOST ANYTHING" why do we need powershell
+## I am wrong : MY LEARNING: "Different diseases have to be treated with differnet medicines" this can be an amateur analogy but that is how it works,each project has a different set of requirements and tool that can best solve the problem at hand has to be picked since my team was working on deploying resources to the Azure cloud,the Powershell(Azure Cloud) being Microsoft's brain child it had a lot of in-built functions and cmdlets that can help make the process easier.
+
+Please find the learnings [here](https://github.com/sarnesh444/Internship-Kagool/tree/master/basicsofpowershell)
+
+
+## Day 28: June 2nd 2020
+#### Explore logs.....
+* After checking out some basics I have been asked to gain insights from the code base of the team,the functionality of the code was to   write user logs to a flat-file and deploy them to the cloud and also print warnings to the console in case of failure.Sounds simple     is'nt,not actually the syntax of powershell is a little difficult to catch it encompassed lot of in-built functions,so had to look up   the documentation"I WROTE NO CODE BUT I WAS TRYING TO UNDERSTAND WHAT HAS BEEN ALREADY WRITTEN"
+* Simple task : Write a code to read from csv and print to the console.
+  Please check it [here](https://github.com/sarnesh444/Internship-Kagool/tree/master/readfromcsv)
+ 
+
+## Day 29: June 3rd 2020
+#### Explore ARM......
+* Azure Resouce Manager,if were to explain it is similar to a yaml file and has a structure like json which is used to specify resources (eg.Azure storage,with all the specifications and attributes like apiversion etc.)and deploy them within resource groups within subscriptions,I found a [github page](https://github.com/Azure/azure-quickstart-templates) from azure,it is a repository of pre-defined templates that can be tailored to our requirements and using a ps1 script the specified ARM TEMPLATE can be deployed.
+
+
+## Day 30: June 4th 2020
+#### Exploring classes in powershell....
+* This task was a little easy since it revolves around the OOPs concept,I had to explore how classes work in powershell and basic         concepts of classes like inheritance and costructors.
+* Here are my [learnings](https://github.com/sarnesh444/Internship-Kagool/tree/master/classes)
+
+
+## Day 31: June 6th 2020
+#### Explore the script of Azure Data Factory...
+* The task was to explore a script that deploys "pipelines"(pipeline can be understood as a workflow,the data can be imported from multiple sources like RDBMS,User Reviews,csv,xlsx and storage like AWS S3,Azure facilitates all the importing,manipulating and processing via Pipelines in Azure datafactory) to Azure.
