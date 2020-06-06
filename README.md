@@ -16,7 +16,7 @@ My sincere thanks to Mr.Kalyan Gupta,Mr.Uma(HR),Mr.Babu(Sys-Admin),Mr.Dylan(Anal
 * Had a walk-through of work-flows/project-lifecycle at the firm.
 
 
-## Day 2-5 May2-5 2020
+## Day 2-5 May2-5th 2020
 #### Virtual On-Boarding
 
 * I have been asked to join for a call with the HR and Sys-Admin for the on-boarding process.
@@ -159,7 +159,7 @@ Based on the sales from top5 countries we wanted to create a new dataset so as t
 Here is the [outcome](https://github.com/sarnesh444/Internship-Kagool/blob/master/country_vs_sales_groupby_snscatplot/new_groupby_country_vs_sales.ipynb)
 
 
-## Day 18: May21th 2020
+## Day 18: May21st 2020
 #### Group by country mark by sale
 
 Todays goal was to have each sale on the visualization only from top5 countries eg.The highest number of sales are from USA so each point on the visual represents one sale from the country.
@@ -236,7 +236,7 @@ Check it out [here](https://github.com/sarnesh444/Internship-Kagool/blob/master/
 ![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/dylanPBIvisualsSales/powerbi/parallel_categories_plotly.JPG)
 
 
-## Day 26: May 30 2020
+## Day 26: May 30th 2020
 #### Goal was to create a dashboard,gather all at one place and also have defined boundaries and descriptions for each visual
 * Creating new Visuals
 ![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/dylanPBIvisualsSales/powerbi/page4mine_main.JPG)
@@ -280,6 +280,6 @@ Please find the learnings [here](https://github.com/sarnesh444/Internship-Kagool
 * Here are my [learnings](https://github.com/sarnesh444/Internship-Kagool/tree/master/classes)
 
 
-## Day 31: June 6th 2020
+## Day 31: June 5th 2020
 #### Explore the script of Azure Data Factory...
 * The task was to explore a script that deploys "pipelines"(pipeline can be understood as a workflow,the data can be imported from multiple sources like RDBMS,User Reviews,csv,xlsx and storage like AWS S3,Azure facilitates all the importing,manipulating and processing via Pipelines in Azure datafactory) to Azure.
