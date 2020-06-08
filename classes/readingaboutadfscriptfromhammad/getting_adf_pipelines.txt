@@ -1,0 +1,35 @@
+Get-AzureRmDataFactoryPipeline cmdlet gets information about pipelines in Azure Data Factory.
+If you specify the name of a pipeline, this cmdlet gets information about that pipeline.
+If you do not specify a name, this cmdlet gets information about all the pipelines in the data factory.
+
+syn:
+Get-AzureRmDataFactoryPipeline
+   [[-Name] <String>]
+   [-DataFactoryName] <String>
+   [-ResourceGroupName] <String>
+   [-DefaultProfile <IAzureContextContainer>]
+   [<CommonParameters>]
+
+eg1.:
+Get-AzureRmDataFactoryPipeline -ResourceGroupName "ADF" -DataFactoryName "WikiADF"
+
+explanation:
+"ADF"-name of resource group
+"WikiADF"-name of datafactory
+
+output:
+this cmdlet gets info of the all the pipelines for the specific resource group in the particular datafactory
+
+eg2.
+Get-AzureRmDataFactoryPipeline -ResourceGroupName "ADF" -Name "DPWikisample" -DataFactoryName "WikiADF" | Format-List
+
+explanation:
+"DPWikisample"
+"|"-pipe command passes the output of the first command to the next  
+
+
+ouput:
+PipelineName      : DPWikisample
+ResourceGroupName : ADF
+DataFactoryName   : WikiADF
+Properties        : Microsoft.DataFactories.PipelineProperties

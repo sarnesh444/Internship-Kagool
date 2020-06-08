@@ -1,0 +1,108 @@
+1)ADF
+https://docs.microsoft.com/en-us/azure/data-factory/v1/data-factory-build-your-first-pipeline-using-powershell
+
+2)blog for building pipeline
+https://docs.microsoft.com/en-us/powershell/module/azurerm.datafactories/get-azurermdatafactorypipeline?view=azurermps-6.13.0
+
+3)
+To create Data Factory instances, you need to be a contributor/administrator of the Azure subscription
+
+4)LINKED SERVICES
+A linked service defines the connection to the data source and a dataset that represents the structure of the data. Example - an Azure Storage linked service specifies connection string to connect to the Azure Storage account. 
+#------Linked services=linking the services needed to perform certain options, to azure datafactory ------------#
+The Azure Storage account holds the input and output data for the pipeline in this sample. The HDInsight linked service is used to run a Hive script specified in the activity of the pipeline in this sample.
+
+
+5)
+#----A data factory can have one or more pipelines. A pipeline can have one or more activities in it.-----#
+
+
+6)
+#------------hierarchy-----------#
+#top to bottom----------Azure account -> Subscriptions -> Resourcegroup -> Resources(Instance of Azure Datafactory) -> Linked services -> pipelines -> activities ----------#
+
+
+7)PIPELINES
+#---------pipeline is like a process of connecting multiple things have inbuilt procedures---------#
+
+Azure Pipelines is a cloud service that you can use to automatically build and test your code project and make it available to other users. ... Azure Pipelines combines continuous integration (CI) and continuous delivery (CD) to constantly and consistently test and build your code and ship it to any target.
+
+Select Azure Pipelines, and then the Builds tab.
+Create a new pipeline.
+Start with an empty pipeline.
+Select Pipeline and specify whatever Name you want to use
+
+8)ACTIVITY:RESIDE WITHIN PIPELINE
+The activities in a pipeline define actions to perform on your data. For example, you may use a copy activity to copy data from SQL Server to an Azure Blob Storage.
+
+9)
+Data Factory cmdlets requires you to pass values of the ResourceGroupName and DataFactoryName parameters each time for every command.
+you can use Get-AzDataFactory to get a DataFactory object and pass the object without typing ResourceGroupName and DataFactoryName each time you run a cmdlet. Run the following command to assign the output of the Get-AzDataFactory cmdlet to a $df variable.
+$df=Get-AzDataFactory -ResourceGroupName ADFTutorialResourceGroup -Name FirstDataFactoryPSH
+
+
+10)
+sample
+Created an Azure data factory.
+Created two linked services:
+Azure Storage linked service to link your Azure blob storage that holds input/output files to the data factory.
+Azure HDInsight on-demand linked service to link an on-demand HDInsight Hadoop cluster to the data factory. Azure Data Factory creates a HDInsight Hadoop cluster just-in-time to process input data and produce output data.
+Created two datasets, which describe input and output data for HDInsight Hive activity in the pipeline.
+Created a pipeline with a HDInsight Hive activity.
+
+
+11)PSCUSTOM OBJECT
+[PsCustomObject] used to cast a hash table that contains property names and values into a custom Windows PowerShell object
+
+
+12)CmdletBinding()
+it turns on cmdlet-style parameter binding capabilities, 
+gives capability to write
+The ability to add [Parameter()]
+The ability to use Write-Verbose and Write-Debug
+The ability to have -whatif and -confirm
+
+Basic functions work, but most of the time you'll find yourself creating advanced function. 
+Advanced functions are functions that include all of the functionality as basic functions but also come with some built-in features that basic functions do not. 
+For example, PowerShell has a concept of streams called Error, Warning, Verbose, etc. These streams are critical in correctly displaying output to users. 
+Basic functions do not inherently understand these streams.
+
+Let's say we want to display an error message if something happens inside of the function. However, we also want the ability to hide this error message 2
+for some reason at only certain times. With a basic function, it would be kludgy to do this. However, with an advanced function, that functionality is built right in.
+ Advanced functions, by default, already have parameters even if you don't include them like Verbose, ErrorAction, WarningVariable and so on. 
+These can be leveraged some different ways. In our error example, let's say I've modified our function to be "advanced" by using the [CmdletBinding()] keyword.
+
+
+13)Functions
+syn:
+function [<scope:>]<name> [([type]$parameter1[,[type]$parameter2])]
+{
+  param([type]$parameter1 [,[type]$parameter2])
+  dynamicparam {<statement list>}
+  begin {<statement list>}
+  process {<statement list>}
+  end {<statement list>}
+}
+
+
+
+
+
+
+Any function can take input from the pipeline. You can control how a function processes input from the pipeline using Begin, Process, and End keywords. The following sample syntax shows the three keywords:
+
+function <name> {
+  begin {<statement list>}
+  process {<statement list>}
+  end {<statement list>}
+}
+
+
+The Begin statement list runs one time only, at the beginning of the function.
+
+The Process statement list runs one time for each object in the pipeline. While the Process block is running, each pipeline object is assigned to the $_ automatic variable, one pipeline object at a time.
+
+After the function receives all the objects in the pipeline, the End statement list runs one time.
+
+If no Begin, Process, or End keywords are used, all the statements are treated like an End statement list.
+

@@ -1,0 +1,16 @@
+1)
+[System.Collections.ArrayList] $Pipelines = @{ }
+[System.Collections.Hashtable] $DependsOn = @{ }
+
+difference in declaration for hashtable
+
+2)
+[ADF]
+
+3)
+are only az commands allowed now instead of rm
+
+
+4)
+what are linked services
+
