@@ -283,3 +283,21 @@ Please find the learnings [here](https://github.com/sarnesh444/Internship-Kagool
 ## Day 31: June 5th 2020
 #### Explore the script of Azure Data Factory...
 * The task was to explore a script that deploys "pipelines"(pipeline can be understood as a workflow,the data can be imported from multiple sources like RDBMS,User Reviews,csv,xlsx and storage like AWS S3,Azure facilitates all the importing,manipulating and processing via Pipelines in Azure datafactory) to Azure.
+
+
+## Day 32: June 8th 2020
+#### Continued exploring the ADF file AND SOME NEW LEARNINGS:
+* Build first Azure data factory using Azure PowerShell: learnt about how an azure data factory works and how it can be deployed from powershell
+* Analysed Azure Hierarchy
+   * Subscriptions
+   * Resource Groups
+   * Resources
+   * Pipelines
+   * Activities
+* Get-AzureRmDataFactoryPipeline gives the entire information related to pipelines
+* Demystified importance of PsCustomObject
+* CmdletBinding() the power given to programmer for framing advanced functions
+* Implemented functions with begin,process and end 
+* Implemented hash table and various methods of instantiating it
+![alttext](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-setup-guide/media/organize-resources/scope-levels.png)
+Check the outcomes [here](https://github.com/sarnesh444/Internship-Kagool/tree/master/classes/readingaboutadfscriptfromhammad)
