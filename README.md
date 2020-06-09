@@ -24,8 +24,23 @@ My sincere thanks to [Mr.Kalyan Gupta Delivery Head](https://in.linkedin.com/in/
 * Being an analytics intern I had to work with a BI tool being an esteemed organization Kagool is a Microsoft Gold Partner so I was fortunate enough to get a Power-BI premium access.[Power-BI](https://powerbi.microsoft.com/en-us/) 
 * We also had to set-up [Teams](https://www.microsoft.com/en-in/microsoft-365/microsoft-teams/group-chat-software) and [Outlook](https://outlook.live.com/owa/) for communication.
 
-##### I have been using slack and teams for a while now and I think hands-down Teams wins,since it is easy-to-use and has everything at one place there is no need to worry about Team-Viewer(for requesting-control) and Zoom(for calls).
+#### I have been using slack and teams for a while now and I think hands-down Teams wins,since it is easy-to-use and has everything at one place there is no need to worry about Team-Viewer(for requesting-control) and Zoom(for calls).
 ![alt text](https://github.com/sarnesh444/Internship-Kagool/blob/master/teamsvsslack.png)
+
+
+#### A high level understanding of a Software Development Cycle
+The product/feature goes through multiple phases before it can reach the client/end-user.
+* Requirement Analysis from product owner
+* Object Oriented Analysis & Design to make sure the devs understand the requirement of the client
+* A software like [JIRA](https://www.atlassian.com/software/jira)can be used to keep track of tasks.
+* Phase 1:TODO/Development This is when after the business logic is in place and all the requirements have been analysed the developers go into the first iteration of product building based on P1 features(In an Agile env with Scrum Framework-have sprint meets to track progress and set goals for the next development cycle).
+* Phase 2:After the code is checked against unit-tests the "working-feature" moves to dev-complete phase
+* Phase 3:Staging, Here is where Quality Assurance Analysts comes into picture and the "working-feature"(small part of the product) becomes a victim of tests like Regression,BVA,load testing are done once the QA approves the feature it becomes QA complete.
+* Phase 4:Now if the product is QA complete then it is forwarded to UAT(User Acceptance Testing) else it is assigned to "dev-iteration"
+* Phase 5:If the task is moved to dev-iteration the developers will have to revamp the issue after that control shifts to Phase2.
+* Phase 6:If the UAT is passed the feature moves to production,else the RCA(Root cause analysis) is done and the control shall shift based on the outcome of the RCA 
+* Phase 7:Feature shifts to production,live build is released and deployed.
+* Phase 8:Beta testing and feedback from users.
 
 
 ## Day 5-7 May 6th-8th 2020
@@ -301,3 +316,19 @@ Please find the learnings [here](https://github.com/sarnesh444/Internship-Kagool
 * Implemented hash table and various methods of instantiating it
 ![alttext](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-setup-guide/media/organize-resources/scope-levels.png)
 Check the outcomes [here](https://github.com/sarnesh444/Internship-Kagool/tree/master/classes/readingaboutadfscriptfromhammad)
+
+
+## Day 33: June 9th 2020
+#### Custom Visuals in PowerBI
+The goal was to get custom-interactive visuals in power-bi,my POC works with R and pbiviz has helped him achieve custom visuals in PBI so we wanted to check if it works for Python as well. 
+* Step1:Install [Node.js](https://nodejs.org/en/download/)
+* Step2:Install all the additional packages that come along-side Node.js like chocolatey
+* Step3:Now using NPM install pbiviz
+* Step4:After that open PBI create a regular python visual and return to Node.js command prompt run the command 
+"pbiviz <nameofvisual> -t pyhtml"
+* This is when I understood that pbiviz is not supported for python and only works with R.
+* The only way out was to install the additional visuals offered by PowerBI to get interactiveness. 
+* If you are working with R check the demo [here](https://towardsdatascience.com/custom-html-visuals-in-power-bi-using-r-2b0494894ff)
+
+![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/dylanPBIvisualsSales/powerbi/pbiviznosupportforpython.jpg)  
+### Looks like PBIVIZ does not support python.
