@@ -332,3 +332,31 @@ The goal was to get custom-interactive visuals in power-bi,my POC works with R a
 
 ![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/dylanPBIvisualsSales/powerbi/pbiviznosupportforpython.jpg)  
 ### Looks like PBIVIZ does not support python.
+
+
+## Day 34:June 10th 2020
+#### Time series analysis and forecast....
+Today's goal was to incorporate time series in PowerBI
+* Step1:Pre-process the time data in QueryEditor using simple DAX,eg.splitting time and date
+
+* Step2:Drag in a line plot onto the canvas and drag the date field into Axis spot and parameter against which it has to be compared into the value spot
+
+* Step3:We would like to observe trend and seasonality so shift to the Analytics bar and create a trend line and fine tune according to needs.
+
+* Step4:We would also like to check out forecast 
+   * So create forecast length(timeline you would like to observe forecast)
+   * Specify an ignore last field if you like to ignore a certain time frame
+   * Adjust confidence interval to tailorize forecast 
+   * Color,LineStyle,Confidence Band style,transparency can be specified as well
+   
+* Step5:Add slicers to drill down into specifics for analyis,I have added
+   * Country
+   * Category
+   * Ship Mode
+   
+* Step6:Add focus cards like...
+   * Profit gained
+   * Quantity
+   * Discount 
+Check the outcomes [here](https://github.com/sarnesh444/Internship-Kagool/tree/master/dylanPBIvisualsSales/powerbi/timeseries)
+![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/dylanPBIvisualsSales/powerbi/timeseries/timseries1.JPG)
