@@ -287,6 +287,7 @@ Please find the learnings [here](https://github.com/sarnesh444/Internship-Kagool
 ## Day 29: June 3rd 2020
 #### Explore ARM......
 * Azure Resouce Manager,if were to explain it is similar to a YAML file and has a structure like JSON which is used to specify resources (eg.Azure storage,with all the specifications and attributes like apiversion etc.)and deploy them to resource groups resided within subscriptions,I found a [github page](https://github.com/Azure/azure-quickstart-templates) from azure,it is a repository of pre-defined templates that can be tailored to our requirements and using a ps1 script the specified ARM TEMPLATE can be deployed.
+Check the outcomes [here](https://github.com/sarnesh444/Internship-Kagool/tree/master/arm)
 
 
 ## Day 30: June 4th 2020
