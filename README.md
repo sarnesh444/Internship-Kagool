@@ -361,3 +361,25 @@ Today's goal was to incorporate time series in PowerBI
    * Discount 
 Check the outcomes [here](https://github.com/sarnesh444/Internship-Kagool/tree/master/dylanPBIvisualsSales/powerbi/timeseries)
 ![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/dylanPBIvisualsSales/powerbi/timeseries/timseries1.JPG)
+
+
+## Day 35:June 11th 2020
+#### Time series ship date ...
+The goal was to create a visual where details can be drilled down.
+USE CASE:Check the sales on a particular day for the same firm across multiple locations.
+* Step1:Get the custom visual from R store
+* Step2:To create Ship Date vs Sales and Order Date vs Sales visuals
+   * Drag the custom visual onto the canvas
+   * Change the date hierarchy
+   * Navigate to display section to tune 
+         * Color
+         * Shadow
+         * Title
+         * Xticks,Yticks
+   * Move to the analytics tailor the trend and seasonality
+Check the outcome [here](https://github.com/sarnesh444/Internship-Kagool/tree/master/dylanPBIvisualsSales/powerbi/timeseries)
+
+![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/dylanPBIvisualsSales/powerbi/timeseries/timseries2.JPG)
+
+
+
