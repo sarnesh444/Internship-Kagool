@@ -383,3 +383,21 @@ Check the outcome [here](https://github.com/sarnesh444/Internship-Kagool/tree/ma
 
 
 
+## Day 36:June 12th 2020
+#### Decompose time....
+The objective was to check sales/profit/discount over time.
+##### I have used the time series decomposition visual from the store.
+* Step1:Installing custom visual from store,navigate to import more visuals from the visualization tab,search for "time series         decomposition." and install it.
+* Step2:Drag the visual onto the canvas and 
+   * drop in the order date in time field 
+   * drop in sales/profit/discount for respective visuals
+* Step3:Tune the necessary details like summarization,trend,seasonality.
+* Step4:To make the dashboard eye-catchy add some color and documentation.
+* Step5:Most importantly since the graph is not interactive navigate to the Graphical Parameters section and play around with the plot-type this will drill down the plot keeping the parameters same thereby enabling keen observation of visuals like
+   * Data Distribution over time
+   * Trend
+   * Seasonality
+   * Remainder
+Check the demonstration [here](https://github.com/sarnesh444/Internship-Kagool/tree/master/dylanPBIvisualsSales/powerbi/timeseries)
+
+![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/dylanPBIvisualsSales/powerbi/timeseries/timeseries3.JPG)
