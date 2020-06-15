@@ -403,7 +403,7 @@ Check the demonstration [here](https://github.com/sarnesh444/Internship-Kagool/t
 ![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/dylanPBIvisualsSales/powerbi/timeseries/timeseries3.JPG)
 
 
-## Day 37:June 13th 2020
+## Day 37:June 15th 2020
 #### Slice and drill.....
 The objective was to drill down on the visual using maximum slicers
 ###### I have used time brush slicer visual from the store
