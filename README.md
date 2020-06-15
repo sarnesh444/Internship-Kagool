@@ -414,7 +414,7 @@ The objective was to drill down on the visual using maximum slicers
    * For hue drag in the country
 * Step3:Tune the necessary details like summarization,select the slicers.
 * Step4:To make the dashboard eye-catchy add some color and documentation.
-* Step5:Most importantly since the graph is not interactive navigate to inlcude slicers,select the slicer from the visual pane and drag in the parameter to slice and play around with the values this will drill down the plot keeping the parameters same thereby enabling keen observation of visuals.
+* Step5:Most importantly since the graph is not interactive navigate to inlcude slicers,select the slicer from the visual pane and drag in the parameter to slice and will help drill down the plot thereby enabling keen observation of visuals.
    Some of the slicers I have included are:
    * Country
    * Category
