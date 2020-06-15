@@ -401,3 +401,28 @@ The objective was to check sales/profit/discount over time.
 Check the demonstration [here](https://github.com/sarnesh444/Internship-Kagool/tree/master/dylanPBIvisualsSales/powerbi/timeseries)
 
 ![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/dylanPBIvisualsSales/powerbi/timeseries/timeseries3.JPG)
+
+
+## Day 37:June 13th 2020
+#### Slice and drill.....
+The objective was to drill down on the visual using maximum slicers
+###### I have used time brush slicer visual from the store
+* Step1:Installing custom visual from store,navigate to import more visuals from the visualization tab,search for "time series brush." and install it.
+* Step2:Drag the visual onto the canvas and 
+   * drop in the order date in time field 
+   * drop in sales for the value field.
+   * For hue drag in the country
+* Step3:Tune the necessary details like summarization,select the slicers.
+* Step4:To make the dashboard eye-catchy add some color and documentation.
+* Step5:Most importantly since the graph is not interactive navigate to inlcude slicers,select the slicer from the visual pane and drag in the parameter to slice and play around with the values this will drill down the plot keeping the parameters same thereby enabling keen observation of visuals.
+   Some of the slicers I have included are:
+   * Country
+   * Category
+   * Order priority
+   * Segment
+   * Ship Mode
+   * Sub-Category
+   * Region
+Check the demonstration [here](https://github.com/sarnesh444/Internship-Kagool/tree/master/dylanPBIvisualsSales/powerbi/timeseries)
+
+![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/dylanPBIvisualsSales/powerbi/timeseries/timeseries4.JPG)
