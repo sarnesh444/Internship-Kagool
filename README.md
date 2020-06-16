@@ -426,3 +426,29 @@ The objective was to drill down on the visual using maximum slicers
 Check the demonstration [here](https://github.com/sarnesh444/Internship-Kagool/tree/master/dylanPBIvisualsSales/powerbi/timeseries)
 
 ![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/dylanPBIvisualsSales/powerbi/timeseries/timeseries4.JPG)
+
+
+## Day 38:June 16th 2020
+#### Bubbles...
+Today's objective was to have as many parameters for comparision as possible 
+We did not want to restrict a visual to only two dimensions but go beyond it so as to have a multi-dimensional visual i.e more paramters helps better understand the data.
+* Step1:Installing custom visual from store,navigate to import more visuals from the visualization tab,search for "bubble chart." and install it.
+* Step2:Drag the visual onto the canvas and 
+   * drop in the country in name field 
+   * drop in sales for the X-Axis field.
+   * drop in profit for the Y-Axis field
+   * Most importantly drag the quantity attribute into the size field,i.e bigger is the size of the bubble higher is the quantity.
+   * Some other fields one can make use of
+         * Play Axis
+         * Left Bar
+         * Right Bar
+* Step3:Tune the necessary details like summarization,select the slicers.
+* Step4:To make the dashboard eye-catchy add some color and documentation.
+
+Summary:
+BUBBLE CHART :HELPS INCLUDE MULTIPLE PARAMETERS ON A SINGLE VISUAL
+HERE NAME FIELD IS SPECIFIED WITH COUNTRY ,X-AXIS IS THE SUM OF VALUES ,Y-AXIS DEPICTS THE PROFIT,,SIZE OF THE BUBBLE IS DETERMINED BY QUANTITY SOLD,PRO OF THE VISUAL IS IT NEED NOT BE RESTRICTED ONLY TO TWO DIMENSIONS FOR COMPARISON BUT MULTIPLE PARAMETERS CAN BE USED ON A SINGLE VISUAL TO UNDERSTAND THE DATA BETTER ACROSS MULTIPLE DIMENSION
+
+Track my progress [here](https://github.com/sarnesh444/Internship-Kagool/tree/master/dylanPBIvisualsSales/powerbi/timeseries)
+
+![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/dylanPBIvisualsSales/powerbi/timeseries/bubble.JPG)
