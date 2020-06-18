@@ -475,3 +475,22 @@ Insights gained:PowerBI does not support features like filtering and interactive
 Check the progress [here](https://github.com/sarnesh444/Internship-Kagool/tree/master/dylanPBIvisualsSales/powerbi)
 
 ![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/dylanPBIvisualsSales/powerbi/timeseries/piechartcomparison.JPG)
+
+
+## Day 40: June 18th 2020
+#### Maps...
+Since the major portion of the dataset was country centric we wanted to have the sales plotted on a map
+So I have installed a visual offered by PowerBI store HeatMap
+   * Go to get more visuals install HeatMap 
+   * Drag in the visual onto the canvas
+   * Drag in the Country attribute if you have one into Location(ID) or a long,lat co-ordinates would also do
+   * Drag in the attribute you would like to visualize into value field.
+   * For a better understanding add 
+      * Gauge
+      * Focus Cards
+      * Filters
+ 
+Check the demo [here](https://github.com/sarnesh444/Internship-Kagool/blob/master/dylanPBIvisualsSales/powerbi/timeseries/mapsdemo.webm)
+
+![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/dylanPBIvisualsSales/powerbi/timeseries/maps.JPG)
+
