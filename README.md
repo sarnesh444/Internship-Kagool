@@ -452,3 +452,26 @@ HERE NAME FIELD IS SPECIFIED WITH COUNTRY ,X-AXIS IS THE SUM OF VALUES ,Y-AXIS D
 Track my progress [here](https://github.com/sarnesh444/Internship-Kagool/tree/master/dylanPBIvisualsSales/powerbi/timeseries)
 
 ![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/dylanPBIvisualsSales/powerbi/timeseries/bubble.JPG)
+
+
+## Day 39: June 17th 2020
+#### Pies...
+The objective was to compare the visuals in PowerBI and Python
+So I created 3 visuals:
+* Radial chart in python using matplotlib
+* Donut chart from Power BI
+* Funnel chart from Power Bi
+Insights gained:PowerBI does not support features like filtering and interactiveness for python visuals 
+* Radial chart is a python code:I found this [here](https://towardsdatascience.com/advanced-python-visualizations-in-powerbi-b64fe8602a8a) on a medium article.
+* Donut chart
+   * Drag in the visual onto the canvas
+   * Drag in the attribute you would like to use for filtering into legend
+   * Drag in the attribute you would like to visualize into values
+* Filter chart
+   * Drag in the visual onto the canvas
+   * Drag in the attribute you would like to use for filtering into group
+   * Drag in the attribute you would like to visualize into values
+ 
+Check the progress [here](https://github.com/sarnesh444/Internship-Kagool/tree/master/dylanPBIvisualsSales/powerbi)
+
+![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/dylanPBIvisualsSales/powerbi/timeseries/piechartcomparison.JPG)
