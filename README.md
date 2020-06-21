@@ -494,3 +494,29 @@ Check the demo [here](https://github.com/sarnesh444/Internship-Kagool/blob/maste
 
 ![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/dylanPBIvisualsSales/powerbi/timeseries/maps.JPG)
 
+
+## Day 41: June 19th 2020
+#### Globe
+
+Since the major portion of the dataset was country centric we also wanted to have the sales plotted on a globe
+So I have installed a visual offered by PowerBI store : Globe Map
+Features:
+   * On giving the input of latitude and longitude it marks the countries
+   * Using the attribute of visualization the height of the bar for the marker on the globe of a co-ordnate is computed
+   * The intensity of the color of the marker can be decided by another attribute
+      eg.darker the color more the sales for that marker
+      
+Process:
+   * Go to get more visuals install Globe Map 
+   * Drag in the visual onto the canvas
+   * Drag in the Country attribute if you have one into Location(ID) or a long,lat co-ordinates would also do
+   * Drag in the attribute you would like to visualize into Length of bar field.
+   * Drag in other parameter which decides the intensity of the marker
+   * For a better understanding add a slicer of the country
+ 
+Check the demo [here](https://github.com/sarnesh444/Internship-Kagool/blob/master/dylanPBIvisualsSales/powerbi/timeseries/globedemo.webm)
+
+![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/dylanPBIvisualsSales/powerbi/timeseries/globe.JPG)
+
+
+
