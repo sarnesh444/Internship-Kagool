@@ -519,4 +519,13 @@ Check the demo [here](https://github.com/sarnesh444/Internship-Kagool/blob/maste
 ![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/dylanPBIvisualsSales/powerbi/timeseries/globe.JPG)
 
 
+## Day 42: June 20th 2020
+#### Presentable...
 
+Even the best of the plots will be presentable when the appearance of each screen in the dashboard is noteworthy
+Even though this calls for some time but not much work we wanted to do it sot that the dashboard can be more presentable 
+
+So we wanted to revamp the apperance of each screen
+Check the demo [here](https://github.com/sarnesh444/Internship-Kagool/blob/master/dylanPBIvisualsSales/powerbi/timeseries)
+
+![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/dylanPBIvisualsSales/powerbi/timeseries/apperance.JPG)
