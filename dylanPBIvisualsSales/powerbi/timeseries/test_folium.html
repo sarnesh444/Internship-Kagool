@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_dd0aa496c7cb45b58b8584033e34d89d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_dd0aa496c7cb45b58b8584033e34d89d" ></div>
+        
+</body>
+<script>    
+    
+            var map_dd0aa496c7cb45b58b8584033e34d89d = L.map(
+                "map_dd0aa496c7cb45b58b8584033e34d89d",
+                {
+                    center: [0, 0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 1,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fdbceea012fc49b79708ae173cfe1355 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_dd0aa496c7cb45b58b8584033e34d89d);
+        
+    
+            var marker_b378e423c5b04b6d9102d74018282d62 = L.marker(
+                [36.778259, -119.417931],
+                {}
+            ).addTo(map_dd0aa496c7cb45b58b8584033e34d89d);
+        
+    
+        var popup_1cf7d046f6994a2b8fabc40790d1a314 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a8e9453c65c4d84b41a6562f6d3f30e = $(`<div id="html_2a8e9453c65c4d84b41a6562f6d3f30e" style="width: 100.0%; height: 100.0%;"><i>USA : Maximum Sales</i></div>`)[0];
+            popup_1cf7d046f6994a2b8fabc40790d1a314.setContent(html_2a8e9453c65c4d84b41a6562f6d3f30e);
+        
+
+        marker_b378e423c5b04b6d9102d74018282d62.bindPopup(popup_1cf7d046f6994a2b8fabc40790d1a314)
+        ;
+
+        
+    
+    
+            marker_b378e423c5b04b6d9102d74018282d62.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
