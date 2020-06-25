@@ -519,7 +519,7 @@ Check the demo [here](https://github.com/sarnesh444/Internship-Kagool/blob/maste
 ![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/dylanPBIvisualsSales/powerbi/timeseries/globe.JPG)
 
 
-## Day 42: June 20th 2020
+## Day 42: June 22th 2020
 #### Presentable...
 
 Even the best of the plots will be presentable when the appearance of each screen in the dashboard is noteworthy
@@ -529,3 +529,25 @@ So we wanted to revamp the apperance of each screen
 Check the demo [here](https://github.com/sarnesh444/Internship-Kagool/blob/master/dylanPBIvisualsSales/powerbi/timeseries)
 
 ![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/dylanPBIvisualsSales/powerbi/timeseries/apperance.JPG)
+
+
+## Day 43,44,45: June 23,24,25 2020
+#### Folium ...
+Haven't done much but I wanted to explore how maps could be generated in python
+* When working with sales data that is location centric heat maps,maps come very handy in analyzing better.
+* [Folium](https://python-visualization.github.io/folium/) is an excellent python library that is used to generate Map-Python visuals
+* Install via 'pip install folium'
+* The output can be 
+   * a HTML file supported with leaflet.js 
+   * a jupyter notebook output using %matplotlib inline
+* Looking forward to go deeper and see what can happen
+* To generate the output just run the folium_test.py file 
+
+Check the updates [here](https://github.com/sarnesh444/Internship-Kagool/blob/master/dylanPBIvisualsSales/powerbi/timeseries)
+
+![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/dylanPBIvisualsSales/powerbi/timeseries/folium1.JPG)
+
+![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/dylanPBIvisualsSales/powerbi/timeseries/folium2.JPG)
+
+
+
