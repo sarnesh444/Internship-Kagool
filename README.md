@@ -550,4 +550,18 @@ Check the updates [here](https://github.com/sarnesh444/Internship-Kagool/blob/ma
 ![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/dylanPBIvisualsSales/powerbi/timeseries/folium2.JPG)
 
 
+## Day46:June 26 2020
+#### Analytics Team : Knowledge Transfer & Review
 
+* Being a Friday we had an Analytics Team Catchup for a soapbox session followed by KT&R
+* We had a sessions on 
+   * Integrating 3D visuals in PowerBI
+         * 3D Visuals in PBI using matplotlib
+   * Aggregations in PowerBI
+         * In real world we usually deal with a lot of data so in-order to minimize the number of records aggregations are used
+         * Ensures speed
+         * Modularazation
+         * No data loss since decomposed via Normal Forms
+         * Works like pandas groupby aka aggregations in PBI
+
+![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/dylanPBIvisualsSales/powerbi/timeseries/KTandR.JPG)
