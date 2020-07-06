@@ -565,3 +565,32 @@ Check the updates [here](https://github.com/sarnesh444/Internship-Kagool/blob/ma
    * Works like pandas groupby aka aggregations in PBI
 
 ![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/dylanPBIvisualsSales/powerbi/timeseries/KTandR.JPG)
+
+
+##### I have taken a small break and went through some resources before I could take up the next task
+
+
+# Phase 3:Salesforce(aka SF)
+![alttext](https://upload.wikimedia.org/wikipedia/en/thumb/8/83/Salesforce_logo.svg/1200px-Salesforce_logo.svg.png)
+
+## The target is to embed a PBI Report in SF
+
+## Day 47:Jul 6 2020
+#### Azure Active Directory
+
+![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/salesforcePBI/task1PBIinSFnotuserspecific/exploring/azure-active-directory.png)
+Azure AD is the built-in solution for managing identities in Office 365. Add and configure any application with Azure AD to centralize identity and access management and better secure your environment. Configure SSO and automated provisioning depending on your application's capabilities and your preferences.
+
+###### Using Azure Active Directory Sys-Admin can configure services that can be used by a employee in an enterprise environment
+###### Instead of multiple login uid/passwd for each service,every emp is assigned with uid/passwd through this single credentials services used by emp can be allocated.
+
+###### Without AAD
+![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/salesforcePBI/task1PBIinSFnotuserspecific/exploring/without_aad.JPG)
+
+###### With AAD
+![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/salesforcePBI/task1PBIinSFnotuserspecific/exploring/with_aad.JPG)
+
+###### Process of AAD
+![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/salesforcePBI/task1PBIinSFnotuserspecific/exploring/process_aad.JPG)
+
+Check the progress/documentation [here](https://github.com/sarnesh444/Internship-Kagool/blob/master/salesforcePBI/task1PBIinSFnotuserspecific/exploring/insights.docx)
