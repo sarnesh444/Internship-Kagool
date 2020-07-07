@@ -594,3 +594,27 @@ Azure AD is the built-in solution for managing identities in Office 365. Add and
 ![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/salesforcePBI/task1PBIinSFnotuserspecific/exploring/process_aad.JPG)
 
 Check the progress/documentation [here](https://github.com/sarnesh444/Internship-Kagool/blob/master/salesforcePBI/task1PBIinSFnotuserspecific/exploring/insights.docx)
+
+
+## Day 48:Jul 7 2020
+#### Power BI Alerts...
+
+* Publish the report 
+* Select the tile you want to set alert for
+* Configure the alert by specifying the threshold and cron job
+* Using the existing templates from the Microsoft Flow cofig the flow when an alert is triggered Eg.sending a slack notification
+
+###### So when the condition of the alert is met the flow template to triggered to execute
+
+ALERT WINDOW/Config window
+![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/salesforcePBI/task1PBIinSFnotuserspecific/exploring/alertsinpbi/alertwindow.JPG)
+
+TEMPLATES
+![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/salesforcePBI/task1PBIinSFnotuserspecific/exploring/alertsinpbi/microsoftflowtemplates_for_alerts_in_pbi.JPG)
+
+
+FIRING ALERT 
+![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/salesforcePBI/task1PBIinSFnotuserspecific/exploring/alertsinpbi/sending_alerts_to_slack_via_flow_when_threshold_crossed_in_pbi.JPG)
+
+
+Check the progress/documentation [here](https://github.com/sarnesh444/Internship-Kagool/blob/master/salesforcePBI/task1PBIinSFnotuserspecific/exploring/insights.docx)
