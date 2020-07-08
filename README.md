@@ -618,3 +618,25 @@ FIRING ALERT
 
 
 Check the progress/documentation [here](https://github.com/sarnesh444/Internship-Kagool/blob/master/salesforcePBI/task1PBIinSFnotuserspecific/exploring/insights.docx)
+
+
+## Day 49:Jul 8 2020
+#### Connecting PBI to SF
+
+Salesforce.com, inc. is an American cloud-based software company headquartered in San Francisco, California. It provides customer relationship management service and also sells a complementary suite of enterprise applications focused on customer service, marketing automation, analytics, and application development.
+
+#### Steps:
+* Construct the PowerBI report 
+* Publish it to PowerBI web
+* Navigate to file/embed and copy the embed URL
+* Create AAD,OAuth
+* Create a new Visual Force Page in SF
+* Embed the iframe apex code along with Embed URL in VF 
+* Click on preview to check the status
+* Now the PowerBI report is connected to Salesforce
+
+WOKFLOW
+![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/salesforcePBI/task1PBIinSFnotuserspecific/exploring/workflow.JPG)
+
+Sample
+![alttext](https://powerbicdn.azureedge.net/mediahandler/blog/media/PowerBI/blog/5054bc32-2fb2-4983-aecb-df07059bccef.jpg)
