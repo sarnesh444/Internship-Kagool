@@ -640,3 +640,57 @@ WOKFLOW
 
 Sample
 ![alttext](https://powerbicdn.azureedge.net/mediahandler/blog/media/PowerBI/blog/5054bc32-2fb2-4983-aecb-df07059bccef.jpg)
+
+
+## I think images speak louder than text so I will restrict myself to more of images than explanation text.
+
+
+## Day 50:Jul 9 2020
+#### Azure Logic App
+
+![alttext](https://sec.ch9.ms/ch9/c033/c703cff2-d99b-4c02-a5e8-d90d1185c033/introducingazurelogicapps_960.jpg?v=9963f0986fa62e56a009126ebe6c5cb1175dbfc409c6b78d065d7e54cccfe03f)
+
+We have been using a Logic App to implement a particular task so I wanted to read about it today so that I can create one when needed.
+
+Azure Logic Apps is a cloud service that helps you schedule, automate, and orchestrate tasks, business processes, and workflows when you need to integrate apps, data, systems, and services across enterprises or organizations.
+
+#### Azure Logic App has:
+* Trigger
+* Action
+* Input for each step
+* Output for each step
+* The outputs of each step can be used at any stage 
+
+#### Works like this
+* When a certain condition is met an action is triggered.
+* There are a series of steps that will be executed after triggering.
+Eg.
+* When a file is added to the blob storage.(check for every 1 hour)
+* Send a notification email via outlook.(there are a lot of templates like these)
+
+
+### Logic App creation
+![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/salesforcePBI/task1PBIinSFnotuserspecific/exploring/azurelogicapp/logicapp_create_config.JPG)
+
+### Logic App Designer 
+![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/salesforcePBI/task1PBIinSFnotuserspecific/exploring/azurelogicapp/logic_app_designer.JPG)
+
+### Structure LA
+![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/salesforcePBI/task1PBIinSFnotuserspecific/exploring/azurelogicapp/structure_logicapp.JPG)
+
+### WorkFlow
+![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/salesforcePBI/task1PBIinSFnotuserspecific/exploring/azurelogicapp/workflow_azurelogicapp.JPG)
+
+### Sample
+![altext](https://github.com/sarnesh444/Internship-Kagool/blob/master/salesforcePBI/task1PBIinSFnotuserspecific/exploring/azurelogicapp/trigger_action_output_for_HTTPRequest.JPG)
+
+### Sending Emails Via Outlook
+![altext](https://github.com/sarnesh444/Internship-Kagool/blob/master/salesforcePBI/task1PBIinSFnotuserspecific/exploring/azurelogicapp/sending_email_via_outlook_whenblob_updates.JPG)
+
+### Params from any prev step
+![altext](https://github.com/sarnesh444/Internship-Kagool/blob/master/salesforcePBI/task1PBIinSFnotuserspecific/exploring/azurelogicapp/dynamicparams_from_prev.JPG)
+
+### Run History to check the status of execution of a call to a LA
+![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/salesforcePBI/task1PBIinSFnotuserspecific/exploring/azurelogicapp/dynamicparams_from_prev.JPG)
+
+
