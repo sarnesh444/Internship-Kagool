@@ -691,6 +691,6 @@ Eg.
 ![altext](https://github.com/sarnesh444/Internship-Kagool/blob/master/salesforcePBI/task1PBIinSFnotuserspecific/exploring/azurelogicapp/dynamicparams_from_prev.JPG)
 
 ### Run History to check the status of execution of a call to a LA
-![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/salesforcePBI/task1PBIinSFnotuserspecific/exploring/azurelogicapp/dynamicparams_from_prev.JPG)
+![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/salesforcePBI/task1PBIinSFnotuserspecific/exploring/azurelogicapp/runhistory_tocheck_statusof_execution.JPG)
 
 
