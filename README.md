@@ -694,3 +694,21 @@ Eg.
 ![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/salesforcePBI/task1PBIinSFnotuserspecific/exploring/azurelogicapp/runhistory_tocheck_statusof_execution.JPG)
 
 
+## Day 51:Jul 10 2020
+#### Azure databricks
+
+Azure Databricks is an Apache Spark-based analytics platform optimized for the Microsoft Azure cloud services platform.
+This new service, named Microsoft Azure Databricks, provides data science and data engineering teams with a fast, easy and collaborative Spark-based platform on Azure. It gives Azure users a single platform for Big Data processing and Machine Learning.
+
+![altext](https://img-a.udemycdn.com/course/750x422/2121860_d8cd_3.jpg)
+
+
+### Introduction
+![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/salesforcePBI/task1PBIinSFnotuserspecific/exploring/databricks/intro.JPG)
+
+## Check [here](https://github.com/sarnesh444/Internship-Kagool/tree/master/salesforcePBI/task1PBIinSFnotuserspecific/exploring/databricks) for explanational images.
+
+
+# Today is the end of my internship with Kagool it has a been an amazing experience so far.
+
+# I was fortunate to be promoted as "Graduate Data Engineer" with a stipend will update the progress in another repo.
