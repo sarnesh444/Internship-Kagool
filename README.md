@@ -575,7 +575,7 @@ Check the updates [here](https://github.com/sarnesh444/Internship-Kagool/blob/ma
 
 ## The target is to embed a PBI Report in SF
 
-## Day 47:Jul 6 2020
+## Day 47:June 29 2020
 #### Azure Active Directory
 
 ![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/salesforcePBI/task1PBIinSFnotuserspecific/exploring/azure-active-directory.png)
@@ -596,7 +596,7 @@ Azure AD is the built-in solution for managing identities in Office 365. Add and
 Check the progress/documentation [here](https://github.com/sarnesh444/Internship-Kagool/blob/master/salesforcePBI/task1PBIinSFnotuserspecific/exploring/insights.docx)
 
 
-## Day 48:Jul 7 2020
+## Day 48:June 30 2020
 #### Power BI Alerts...
 
 * Publish the report 
@@ -620,7 +620,7 @@ FIRING ALERT
 Check the progress/documentation [here](https://github.com/sarnesh444/Internship-Kagool/blob/master/salesforcePBI/task1PBIinSFnotuserspecific/exploring/insights.docx)
 
 
-## Day 49:Jul 8 2020
+## Day 49:Jul 1 2020
 #### Connecting PBI to SF
 
 Salesforce.com, inc. is an American cloud-based software company headquartered in San Francisco, California. It provides customer relationship management service and also sells a complementary suite of enterprise applications focused on customer service, marketing automation, analytics, and application development.
@@ -645,7 +645,7 @@ Sample
 ## I think images speak louder than text so I will restrict myself to more of images than explanation text.
 
 
-## Day 50:Jul 9 2020
+## Day 50:Jul 2 2020
 #### Azure Logic App
 
 ![alttext](https://sec.ch9.ms/ch9/c033/c703cff2-d99b-4c02-a5e8-d90d1185c033/introducingazurelogicapps_960.jpg?v=9963f0986fa62e56a009126ebe6c5cb1175dbfc409c6b78d065d7e54cccfe03f)
@@ -694,7 +694,7 @@ Eg.
 ![alttext](https://github.com/sarnesh444/Internship-Kagool/blob/master/salesforcePBI/task1PBIinSFnotuserspecific/exploring/azurelogicapp/runhistory_tocheck_statusof_execution.JPG)
 
 
-## Day 51:Jul 10 2020
+## Day 51:Jul 3 2020
 #### Azure databricks
 
 Azure Databricks is an Apache Spark-based analytics platform optimized for the Microsoft Azure cloud services platform.
@@ -712,3 +712,5 @@ This new service, named Microsoft Azure Databricks, provides data science and da
 # Today is the end of my internship with Kagool it has a been an amazing experience so far.
 
 # I was fortunate to be promoted as "Graduate Data Engineer" with a stipend will update the progress in another repo.
+
+# Check the endorsement [here](https://drive.google.com/file/d/1_nzCFFQWFJMH0AWqRjD3zcJB_mNB44dp/view?usp=sharing) 
